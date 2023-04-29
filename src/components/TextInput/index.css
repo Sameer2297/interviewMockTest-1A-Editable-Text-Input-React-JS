@@ -1,0 +1,55 @@
+.bg-container {
+  background-color: #00000033;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-ele {
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 13px;
+  outline: none;
+  width: 220px;
+  margin-right: 10px;
+  color: #323f4b;
+}
+
+.para {
+  color: #323f4b;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #d946ef;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 13px 8px 13px;
+  color: #ffffff;
+  font-size: 13px;
+}
